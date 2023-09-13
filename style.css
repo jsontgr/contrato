@@ -1,0 +1,62 @@
+body {
+    background: #cfd4b87b;
+    font-family: Optima, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+
+
+
+#data {
+    width: 30%;
+    transform: translate(0px, 0px);    
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    transform: translate(0px, 0px);
+}
+
+#fixed-data {
+    margin-top: 20px;
+}
+
+#fixed-data h2 {
+    margin-bottom: 10px;
+}
+
+#botao {
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: #A62A2A;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 1rem;
+    
+}

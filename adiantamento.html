@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="https://uploaddeimagens.com.br/images/004/549/222/full/EMAPE.png?1689720598">
+    <title>Contrato</title>
+    <link rel="stylesheet" href="stylerecibo.css">
+</head>
+<body>
+    <STYLE TYPE="text/css">
+        BODY {background-image: url(https://uploaddeimagens.com.br/images/004/556/728/full/emap.png?1690304719); background-repeat: no-repeat; background-position: 200px 200px; background-attachment: fixed;}
+    </STYLE>
+    <h1>ADIANTAMENTO DE FRETE</h1><img style="transform: translate(180px, -10px);" width="110px" src="https://uploaddeimagens.com.br/images/004/549/222/full/EMAPE.png?1689720598" hspace="20">
+    <form id="contract-form" onsubmit="return false">
+
+        <div class="row">
+            <div class="col-md-8">
+    
+            </div>
+            
+
+
+            <div class="col-md-12">
+                <div class="form-group row">
+                    
+                    <div class="col-md-4">
+                        <label>QUANTIDADAE:</label>
+                        <input type="text" id="quatidade" onblur="checkCnpj(this.value)"  class="form-control" 
+                            placeholder="Quantidade" />
+                    </div>
+                    <div class="col-md-4">
+                        <label>VALOR POR TON:</label>
+                        <input type="text" id="vton" class="form-control" required />
+                    </div>
+                
+                
+                    <div class="col-md-4">
+                        <label>VALOR TOTAL:</label>
+                        <input type="text" id="vtotal" class="form-control" />
+                    </div>
+                
+                    <div class="col-md-6">
+                        <label>PLACA:</label>
+                        <input type="text" id="placa" class="form-control" />
+                    </div>
+                    <div class="col-md-6">
+                        <label>ADIANTAMENTO:</label>
+                        <input type="text" id="adiant" class="form-control" />
+                    </div>
+                    
+                    <div class="col-md-12">
+                        <label>NOME DO MOTORISTA:</label>
+                        <input type="text" id="mot" class="form-control" />
+                    </div>
+
+
+                    
+                    <!-- DADOS BANCARIO -->
+                    <div class="col-md-12">
+                    <h3 style="transform: translate(200px, 0px)";>Dados Bancario</h3>
+                    </div>
+                    <div class="col-md-8">
+                        <label>NOME DO RECEBEDOR:</label>
+                        <input type="text" id="bcnome" class="form-control" required />
+                    </div>
+                    <div class="col-md-4">
+                        <label>CPF/CNPJ:</label>
+                        <input type="text" id="bccpf" class="form-control" required />
+                    </div>
+                    <div class="col-md-4">
+                        <label>NOME DO BANCO:</label>
+                        <input type="text" id="bcbanco" class="form-control" required />
+                    </div>
+                    <div class="col-md-4">
+                        <label>Nº DA AGÊNCIA:</label>
+                        <input type="text" id="bcag" class="form-control" required />
+                    </div>
+                    <div class="col-md-4">
+                        <label>Nº DA CONTA:</label>
+                        <input type="text" id="bcconta" class="form-control" required />
+                    </div>
+                    <div class="col-md-6">
+                        <label>CONTRATO:</label>
+                        <input type="text" id="contrato" class="form-control" required />
+                    </div>
+                    <div class="col-md-6">
+                        <label>PEDIDO:</label>
+                        <input type="text" id="pedido" class="form-control" required />
+                    </div>
+                    <div class="col-md-6">
+                        <label>NOME CONTRATO:</label>
+                        <input type="text" id="ncontrato" class="form-control" required />
+                    </div>
+                    <div class="col-md-6">
+                        <label>PIX:</label>
+                        <input type="text" id="pix" class="form-control" required />
+                    </div>
+                    <div class="col-md-12">
+                        <label>PRODUTOR:</label>
+                        <input type="text" id="produtor" class="form-control" required />
+                    </div>
+                    
+
+                </div>
+            </div>
+            <div class="col-md-4">
+    
+            </div>
+        </div>
+
+
+
+        <label for="data" style="transform: translate(0px, 30px);">Data:</label>
+        <input type="date" id="data" required>
+
+        
+        <button id="botao" onclick="printContract2()">Imprimir Recibo</button>
+        <a href="index.html" id="botao">MENU</a>
+    </form>
+    <footer class="rodape">
+        <p class="ult-paragrafo" style="transform: translate(200px, 30px);">Copyright &copy; | Jason Umbelino</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
+
+
+    <script src="adiant.js"></script>
+</body>
+</html>
