@@ -54,7 +54,7 @@ function printContract3() {
         <p style="transform: translate(-10px, -50px);"><img src="https://uploaddeimagens.com.br/images/004/549/222/full/EMAPE.png?1689720598" width="300px" </p>
         <h3><strong><p style="transform: translate(300px, -150px);">EMAPE TERCEIRA GERAÇÃO AVICOLA LTDA</p></strong></h3>
         <h4><strong><p style="transform: translate(330px, -245px);">ROD. CE 187 - ZONA RURAL TIANGUÁ-CE</p></strong></h4>
-        <h4><p style="transform: translate(0px, -170px);"><strong>ATT: AIRTON/YASMIM/HOSMARINA </strong></p></h3>
+        <h4><p style="transform: translate(0px, -170px);"><strong>ATT: TEREZA CRISTINA </strong></p></h3>
         <h3><p style="transform: translate(350px, -350px);"><strong>PAGAMENTO SALDO DE FRETE </strong></p></h3>
         
         <p style="transform: translate(0px, -400px);">
